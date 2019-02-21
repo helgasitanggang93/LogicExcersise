@@ -1,0 +1,5 @@
+// equalTo24(1,2,3,4) // can return "(1+3)*(2+4)" or "1*2*3*4"
+// equalTo24(2,3,4,5) // can return "(5+3-2)*4" or "(3+4+5)*2"
+// equalTo24(3,4,5,6) // can return "(3-4+5)*6"
+// equalTo24(1,1,1,1) // should return "It's not possible!"
+// equalTo24(13,13,13,13) // should return "It's not possible!"
